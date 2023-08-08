@@ -1,0 +1,11 @@
+#style.css> {}@media screen and (max-width: 808px) > h1
+ body {
+     background-color:aqua;
+  }
+  h1{
+    font-size: 25%;
+  }
+  @media screan and (max-width:808px)  {
+    h1{font:size 150%}
+    body { background-color: crimson;}
+  }
