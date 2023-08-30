@@ -33,3 +33,10 @@ document.querySelector("#botao").addEventListener("click", () => {
 document.querySelector(".close").addEventListener("click", () => {
   lista.setAttribute("data-lista", "esconder");
 });
+var livro = { 
+    titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:31.92
+    }
