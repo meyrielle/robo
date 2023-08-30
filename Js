@@ -10,3 +10,4 @@ function dizOi(nome) {
 }
 
 dizOi("Pedro") 
+const controle = document.querySelectorAll(".controle-ajuste")
