@@ -40,3 +40,15 @@ var livro = {
     editora: "Casa do código", 
     preco:31.92
     }
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:21.89},
+
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:31.92},
+]
