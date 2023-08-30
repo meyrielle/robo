@@ -86,3 +86,4 @@ titulo: "Cangaceiro JavaScript"
 preco: 31.92
 delete livros[1].autor
 console.log(this === window); // true
+console.log('O autor do livro se chama ' + livros.chamaLivro())
