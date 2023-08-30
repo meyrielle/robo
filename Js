@@ -17,3 +17,7 @@ var lista = ["Laranja", "Vermelho", "Branco", "Amarelo", "Rosa"];
 lista.splice(1,1)
 
 console.log(lista);
+function mudaCores(elementos){
+    var cores = elementos.getAttribute("[data-cor]");
+    var tipoElemento = elementos.getAttribute("[data-tipo]");
+  }
