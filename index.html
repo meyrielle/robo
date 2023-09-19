@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+    <link rel="shortcut icon" type="favicon.ico" href="img/favicon.ico"/>
     <title>Robotron 2000</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="img/robotron.png" alt="Robotron">
+            <img class="robo" src="robotron.png" alt="Robotron" id="robotron">
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
         </section>
 
@@ -65,6 +65,7 @@
                             <input type="text" class="controle-contador" value="00">
                             <buttom class="controle-ajuste">+</buttom>
                         </div>
+                        <img src="fundo.jpg" class="foto">
                     </div>
                     <hr class="linha">
                     <div class="peca">
@@ -83,7 +84,6 @@
                             <input type="text" class="controle-contador" value="00">
                             <buttom class="controle-ajuste">+</buttom>
                         </div>
-                    <img "src=""robotron.png"
                     </div>
                     <hr class="linha">
                     <div class="peca">
@@ -97,10 +97,11 @@
                 </div>
                 <input type="submit" value="Iniciar produção" class="producao" id="producao">
             </form>
-        <img "src=""fundo.jpg"
         </section>
     </main>
-    <script src=" <script src="js/main.js"></script>"></script>
+    <img src="robotron.png" class="foto">
+    const controle = document.querySelectorAll(".controle-ajuste")
+    <script>src=js/main.js </script>
 </body>
 </html>
 <h1>Lista de tintas:</h1>
@@ -111,14 +112,7 @@
   <li data-cor="amarelo" data-tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta amarelo</li>
   <li data-cor="rosa" data-tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta rosa</li>
 </ul>
-<h1>Lista de tintas:</h1>
-<ul id="lista">
-  <li cor="laranja" tipo="tinta-exterior" onclick="mudaCores(this)" class="item">Tinta laranja</li>
-  <li cor="vermelho" tipo="tinta-interior"  onclick="mudaCores(this)" class="item">Tinta vermelha</li>
-  <li cor="branco" tipo="tinta-interior"  onclick="mudaCores(this)" class="item">Tinta branca</li>
-  <li cor="amarelo" tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta amarelo</li>
-  <li cor="rosa" tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta rosa</li>
-</ul>
+
 <section class="robotron">
     <section class="botoes">
         <button class="alterar" alterar onclick="trocaImagem('Azul')">Robotron Azul</button>
@@ -131,3 +125,4 @@
     <img class="robo" src="/img/Robotron 2000 - Azul.png" alt="Robotron">
     <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
 </section>
+
