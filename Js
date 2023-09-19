@@ -9,75 +9,31 @@ function dizOi(nome) {
     console.log('Bem-vindo ao Robotron 2000')
 }
 
-dizOi("Pedro") 
-const controle = document.querySelectorAll(".controle-ajuste")
-var lista = ["Laranja", "Vermelho", "Branco", "Amarelo", "Rosa"]; 
-var lista = ["Laranja", "Vermelho", "Branco", "Amarelo", "Rosa"]; 
-
-lista.splice(1,1)
-
-console.log(lista);
+dizOi("Pedro")
 function mudaCores(elementos){
     var cores = elementos.getAttribute("[data-cor]");
     var tipoElemento = elementos.getAttribute("[data-tipo]");
   }
-  function mudaCores(elementos){
-    var cores = elementos.getAttribute("[cor]");
-    var tipoElemento = elementos.getAttribute("[tipo]");
-  }
-  const lista = document.querySelector("ul");
-document.querySelector("#botao").addEventListener("click", () => {
-  lista.setAttribute("data-lista", "mostrar");
-});
-
-document.querySelector(".close").addEventListener("click", () => {
-  lista.setAttribute("data-lista", "esconder");
-});
-var livro = { 
-    titulo: "Cangaceiro JavaScript",  
-    autor: "Flávio Almeida", 
-    genero: "Front-end", 
-    editora: "Casa do código", 
-    preco:31.92
-    }
+  var livros = [
     {titulo: "Cangaceiro JavaScript",  
-    autor: "Flávio Almeida", 
-    genero: "Front-end", 
-    editora: "Casa do código", 
+    autor: "Flávio Almeida",
+    genero: "Front-end",
+    editora: "Casa do código",
+    preco:31.92
+},
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida",
+    genero: "Front-end",
+    editora: "Casa do código",
     preco:21.89},
 
     {titulo: "Cangaceiro JavaScript",  
-    autor: "Flávio Almeida", 
-    genero: "Front-end", 
-    editora: "Casa do código", 
+    autor: "Flávio Almeida",
+    genero: "Front-end",
+    editora: "Casa do código",
     preco:31.92},
 ]
-livro.preco 31,92
-var livros = [
-
-    {titulo: "Cangaceiro JavaScript",  
-    autor: "Flávio Almeida", 
-    genero: "Front-end", 
-    editora: "Casa do código", 
-    preco: 31.92},
-
-    {titulo: "Introdução e boas práticas em UX Design",  
-    autor: "Fabricio Teixeira", 
-    genero: "UX & UI", 
-    editora: "Casa do código", 
-    preco: 31.92},
-
-    {titulo: "Scrum",  
-    autor: "Rafael Sabbagh", 
-    genero: "Métodos Ágeis", 
-    editora: "Casa do código", 
-    preco: 31.92},
-]
-
-console.log(livros[0]["autor"])
-console.log(livros[0].autor)
 livros[1].genero = "UX e Design"
-livros[0].estoque = "11 unidades"
 autor: "Flávio Almeida"
 editora: "Casa do código"
 estoque: "11 unidades"
@@ -86,4 +42,4 @@ titulo: "Cangaceiro JavaScript"
 preco: 31.92
 delete livros[1].autor
 console.log(this === window); // true
-console.log('O autor do livro se chama ' + livros.chamaLivro())
+console.log(this)
